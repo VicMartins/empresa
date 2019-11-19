@@ -1,4 +1,4 @@
- reference path="pessoa.ts"
+/// reference path="pessoa.ts"
 namespace empresa{
     export class Cliente extends Pessoa {
         private _codCliente:number;
@@ -11,7 +11,7 @@ namespace empresa{
             this._codCliente = codigo;
         }
         public getCredito(){
-            return this._Credito;
+            return this._credito;
         }
         public setCredito(credito:number){
             this._credito =  credito;
